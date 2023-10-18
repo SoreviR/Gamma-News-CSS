@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f7f1;
+    cursor:url(images/wand.png),auto;
+}
+
+
+
+h1, h2 {
+    font-family: 'Young Serif', serif;
+}
+
+h3, h4{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+    font-size:10px ;
+}
+
+.header{
+    margin-top: 30px;
+    /* gap: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header aside{
+    margin: 0;
+    padding: 0;
+}
+
+.header .tituloPeriodico{
+    padding: 0;
+    margin: 0;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+
+}
+
+.header h2{
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.header .tituloPeriodico h1{    
+    font-size: 90px;
+    letter-spacing: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    padding: 5px 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+}
+
+.header aside img {
+    width: auto;
+    height: 150px;
+    
+}
+
+.header .tituloPeriodico h1 span {
+    /* color: gold; */
+    background: url(images/gold\ texture.jpg);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip:text;
+    background-clip:text; 
+}
+
+.articulos {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.articulos article{
+    margin-top: 10px;
+    padding-left: 0;
+    padding-right: 20px;
+    /* padding: 15px 10px 0 10; */
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.articulos figure i{
+    font-size: 10px;
+}
+
+.articulo-1, .articulo-2, .articulo-3, .articulo-4{
+    border-right: 1px solid;
+}
+
+.articulos img {
+    width: 150px;
+    height: auto;
+    -webkit-filter: sepia(80%) contrast(1) opacity(0.8);
+    filter: sepia(80%) grayscale(1) contrast(1) opacity(0.8);
+    mix-blend-mode: multiply;
+}
