@@ -65,9 +65,15 @@ p{
 
 h4{
     padding: 5px 0;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+    /* border-top: 1px solid;
+    border-bottom: 1px solid; */
     box-sizing: border-box;
+}
+
+div {
+    background-color: black;
+    height: 1px;
+    width: 100px;
 }
 
 .header aside img {
